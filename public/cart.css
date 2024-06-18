@@ -1,0 +1,186 @@
+* {
+  padding: 0;
+  border: 0;
+  margin: 0;
+}
+
+.content {
+  margin-top: 10px;
+  width: 99%;
+}
+.search {
+  width: 100% !important;
+  display: flex;
+  margin-bottom: 20px;
+  /* flex-direction: row; */
+}
+
+.search input {
+  width: 450px;
+  height: 60px;
+  margin-right: 20px;
+}
+
+.search form {
+  width: 100% !important;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.search form.barcode {
+  margin-right: -300px;
+}
+
+.table {
+  max-width: 650px;
+}
+
+.items {
+  background: #eaeef1;
+  padding: 20px;
+  border-radius: 10px;
+  width: 100%;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.item {
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  background: #ffffff;
+  margin-bottom: 10px;
+  padding: 10px 20px;
+}
+
+.item-value-product-varied {
+  /* background-color:blue; */
+  display: flex;
+  justify-content: flex-end;
+}
+
+.item-value-product-varied .box-content {
+  display: flex;
+  background-color: #FFF;
+  justify-content: flex-start;
+  /* width: 400px; */
+}
+
+span.totalProductsVaried {
+  margin-top: 30px;
+  font-size: 20px;
+}
+
+.item-value-product-varied .content {
+  display: flex;
+  justify-content: space-around;
+  /* width: 200px; */
+  padding: 2px;
+  /* background-color: red; */
+}
+
+.box-produtctsVaried {
+  display: flex;
+  justify-content: flex-end;
+  /* background-color: red; */
+}
+
+.box-produtctsVaried-content {
+  display: flex;
+  flex-direction: column;
+  background-color: #FFF;
+  align-items: flex-end;
+  width: 400px;
+  padding: 20px;
+
+}
+
+.delete {
+  background-color: #FFF;
+}
+
+.quantity-control {
+  display: flex;
+}
+
+.quantity-control form {
+  margin-left: 20px;
+}
+
+.item form button {
+  background: none;
+  font-size: 35px;
+}
+
+button.delete {
+  color: #fa746c;
+}
+
+.total {
+  display: flex;
+  justify-content: flex-end;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+.total p {
+  margin-right: 10px;
+}
+
+.total span {
+  color: green;
+}
+
+.totalChange {
+  margin-left: 10px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: flex-end;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.descount {
+  display: flex;
+  justify-content: flex-end;
+  font-weight: bold;
+}
+
+.change {
+  display: flex;
+  /* justify-content: flex-end; */
+  font-weight: bold;
+}
+
+.change span {
+  /* color: green; */
+}
+
+.descount input {
+  padding: 5px;
+  width: 200px;
+  border-radius: 5px;
+  border: 1px solid rgb(31, 30, 30);
+}
+
+.change input {
+  padding: 5px;
+  width: 200px;
+  border-radius: 5px;
+  border: 1px solid rgb(31, 30, 30);
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.finish {
+  display: flex;
+  margin-bottom: 5px;
+  margin-top: 20px;
+}
+
+.finish button {
+  width: 210px;
+  height: 60px;
+  font-size: 22px;
+  margin-right: 20px;
+}
